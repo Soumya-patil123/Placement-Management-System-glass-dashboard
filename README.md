@@ -1,23 +1,32 @@
-# Placement Management System
+# 🎓 Placement Management System
 
-A full-stack Placement Management System developed using the MERN Stack to manage students, companies, eligibility, placements, and dashboard statistics.
+A full-stack web application designed to simplify and manage the college placement process. The system provides separate functionality for managing students, companies, eligibility, placements, and results.
 
-## Features
+## 📌 Project Overview
 
-- Student Management (Add, Update, Delete)
-- Company Management
-- Eligibility Checker
-- Placement Results
-- Dashboard with Statistics
-- Search Functionality
-- PDF Report Download
+The Placement Management System helps colleges manage student placement activities in one centralized platform.
 
-## Technologies Used
+It allows administrators to manage student information, company details, eligibility criteria, placement results, and related placement activities.
+
+## ✨ Features
+
+- 🔐 User Login
+- 📊 Dashboard
+- 👨‍🎓 Student Management
+- 🏢 Company Management
+- ✅ Student Eligibility Management
+- 📋 Placement Management
+- 🏆 Placement Results
+- 📱 Responsive User Interface
+- 🎨 Modern Glassmorphism Dashboard Design
+
+## 🛠️ Technologies Used
 
 ### Frontend
+- HTML
+- CSS
+- JavaScript
 - React.js
-- Bootstrap
-- Axios
 
 ### Backend
 - Node.js
@@ -25,71 +34,35 @@ A full-stack Placement Management System developed using the MERN Stack to manag
 
 ### Database
 - MongoDB
-- Mongoose
 
-## Project Structure
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
+- Postman / Thunder Client
 
-Placement-Management-System
+## 📂 Project Structure
+
+```text
+Placement-Management-System/
 │
-├── frontend
-├── backend
-└── README.md
-
-## Installation
-
-### Backend
-
-```bash
-cd backend
-npm install
-npm start
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-
-## 📸 Screenshots
-
-### Login Page
-![Login](login.png)
-
-### Dashboard
-![Dashboard](Dashboard.png)
-
-### Student Management
-![Students](Students.png)
-
-### Company Management
-![Companies](Companies.png)
-
-### Eligibility
-![Eligibility](Eligibility.png)
-
-### Placement Results
-![Results](Result.png)
-
-## Author
-
-**Soumya Patil**
-
-BCA (Pursuing)
-
-GitHub:
-https://github.com/Soumya-patil123
-
-## License
-
-This project is for educational purposes.
-
-
-
-
-
-
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── frontend/
+│   └── ...
+│
+├── Dashboard.png
+├── Students.png
+├── Companies.png
+├── Eligibility.png
+├── Result.png
+├── login.png
+├── README.md
+└── package-lock.json
 
